@@ -118,13 +118,13 @@ public class App {
     }
 
     private static void mostrarMenu() {
-        System.out.println("====== MENÚ CLIENTES ======");
+        System.out.println("========= MENÚ CLIENTES =========");
         System.out.println("1. Mostrar clientes actuales");
         System.out.println("2. Ordenar clientes por clave (Burbuja)");
         System.out.println("3. Agregar nuevo cliente");
         System.out.println("4. Guardar clientes en CSV");
         System.out.println("0. Salir");
-        System.out.println("===========================");
+        System.out.println("=================================");
     }
 
     private static int leerEntero(String elige_una_opcion_) {
